@@ -83,6 +83,7 @@ a:focus {
   font-weight: 500;
 }
 
+.subtitle,
 .muted {
   color: #666;
 }
@@ -99,12 +100,6 @@ a:focus {
   margin-bottom: 0;
 }
 
-@media screen {
-  .lead {
-    font-size: 1.3rem;
-  }
-}
-
 @media (min-width: 48em) {
   html {
     font-size: 18px;
@@ -112,6 +107,12 @@ a:focus {
 
   .page-section {
     padding: 1.5em 2em;
+  }
+}
+
+@media screen {
+  .lead {
+    font-size: 1.3rem;
   }
 }
 
